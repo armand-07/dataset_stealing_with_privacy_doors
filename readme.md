@@ -1,6 +1,11 @@
 # White-box Data Stealing in MLPs
+This project is based on the theoretical framework presented in the paper Privacy Backdoors: Stealing Data with Corrupted Pretrained Models by Shanglun Feng and Florian Tramèr. The study explores the vulnerabilities introduced when pretrained machine learning models are tampered with, creating privacy backdoors that can compromise the finetuning data.
 
-This repository contains a series of Jupyter notebooks that demonstrate various aspects of white-box data stealing in Multi-Layer Perceptrons (MLPs). Each notebook covers a specific topic or experiment related to this subject.
+In this practical study, we have implemented and tested the concepts outlined in the paper. Our experiments demonstrate how an attacker can manipulate pretrained model weights to extract sensitive information from finetuning datasets. We have applied these techniques to various models, including transformers, to validate the feasibility and impact of such privacy attacks.
+
+The goal of this project is to provide a deeper understanding of the risks associated with using untrusted pretrained models and to highlight the importance of securing the machine learning supply chain. By sharing our findings and code, we aim to contribute to the development of more robust defenses against privacy backdoors in machine learning.
+
+**This repository contains a series of Jupyter notebooks that demonstrate various aspects of white-box data stealing in Multi-Layer Perceptrons (MLPs). Each notebook covers a specific topic or experiment related to this subject.**
 
 ## Notebooks
 
