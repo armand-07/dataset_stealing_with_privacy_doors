@@ -1,7 +1,7 @@
 # White-box Data Stealing in MLPs
 This project is based on the theoretical framework presented in the paper Privacy Backdoors: Stealing Data with Corrupted Pretrained Models by Shanglun Feng and Florian Tramèr. The study explores the vulnerabilities introduced when pretrained machine learning models are tampered with, creating privacy backdoors that can compromise the finetuning data.
 
-In this practical study, it has been implemented and tested the concepts outlined in the paper. The experiments demonstrate how an attacker can manipulate pretrained model weights (MNIST) to extract sensitive information from finetuned datasets (Fashion MNIST). 
+In this practical study, it has been implemented and tested the concepts outlined in the paper. The experiments demonstrate how an attacker can manipulate pretrained model weights (MNIST) to extract sensitive information from finetuned datasets (Fashion MNIST). The following image shows the result after corrupting only 64 neurons. It shows how some images can be rescontructed perfectly, as they were in the dataset.  
 
 ![image](https://github.com/user-attachments/assets/8a724a8f-78b9-474e-8085-a5c53deb7375)
 
